@@ -18,7 +18,7 @@ class String
     #binding.pry
     sentence_array = self.split("[.?!]")
     sentence_array.delete_if{|sent| sent == "!" || sent =="." || sent =="?" || sent == ""}
-    binding.pry
+    #binding.pry
     sentence_array.count
   end
 end
